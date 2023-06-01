@@ -1,0 +1,53 @@
+:root {
+  --step--6: clamp(0.42rem, calc(0.4rem + 0.11vw), 0.49rem);
+  --step--5: clamp(0.5rem, calc(0.47rem + 0.17vw), 0.61rem);
+  --step--4: clamp(0.6rem, calc(0.55rem + 0.24vw), 0.77rem);
+  --step--3: clamp(0.72rem, calc(0.65rem + 0.35vw), 0.96rem);
+  --step--2: clamp(0.87rem, calc(0.77rem + 0.49vw), 1.2rem);
+  --step--1: clamp(1.04rem, calc(0.91rem + 0.68vw), 1.5rem);
+  --step-0: clamp(1.25rem, calc(1.06rem + 0.93vw), 1.88rem);
+  --step-1: clamp(1.5rem, calc(1.25rem + 1.25vw), 2.34rem);
+  --step-2: clamp(1.8rem, calc(1.47rem + 1.67vw), 2.93rem);
+  --step-3: clamp(2.16rem, calc(1.72rem + 2.23vw), 3.66rem);
+  --step-4: clamp(2.59rem, calc(2rem + 2.94vw), 4.58rem);
+  --step-5: clamp(3.11rem, calc(2.34rem + 3.87vw), 5.72rem);
+  --step-6: clamp(3.73rem, calc(2.72rem + 5.07vw), 7.15rem);
+  --step-7: clamp(4.48rem, calc(3.16rem + 6.61vw), 8.94rem);
+  --step-8: clamp(5.38rem, calc(3.66rem + 8.59vw), 11.18rem);
+  --max-width: 1400px;
+}
+/********************* RESET *********************/
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/********************* Utilities *********************/
+
+.text-center {
+  text-align: center;
+}
+
+.none {
+  display: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
